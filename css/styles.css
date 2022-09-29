@@ -113,17 +113,31 @@ address {
   color: var(--logo-focus-hover-color);
 }
 
+.contact-header-item {
+  display: flex;
+  min-width: 161px;
+}
+
 .navigation-link,
 .contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
   text-decoration: none;
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   color: #757575;
   text-decoration: none;
 }
@@ -204,6 +218,8 @@ address {
   border-radius: 4px;
   margin-bottom: 30px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .index-content {
@@ -453,7 +469,7 @@ address {
 
 .address {
   padding-top: 20px;
-  min-width: 231px;
+  max-width: 231px;
 }
 
 .footer-logo {
@@ -470,6 +486,8 @@ address {
 }
 
 .footer-logo:focus {
+  display: flex;
+  min-width: 145px;
   color: var(--logo-focus-hover-color);
 }
 
@@ -499,9 +517,14 @@ address {
   flex-direction: column;
 }
 
+.fotter-container-item {
+  display: flex;
+  gap: 70px;
+}
+
 .container-footer-soc {
   justify-content: center;
-  width: 206px;
+  max-width: 206px;
   height: 80px;
 }
 
@@ -528,7 +551,7 @@ address {
   height: 44px;
   border-radius: 50%;
   fill: #ffffff;
-  border: 1px solid orange;
+  background-image: url(../img/footer-bg-icon.svg);
 }
 
 .footer-soc-link:hover,

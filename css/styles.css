@@ -154,6 +154,7 @@ address {
 
 .index-hero {
   max-width: 1600px;
+  margin: 0 auto;
   padding: 200px 0;
   background-color: #c4c4c4;
   background-image: linear-gradient(

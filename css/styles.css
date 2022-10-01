@@ -118,13 +118,16 @@ address {
   min-width: 161px;
 }
 
+.navigation-link {
+  color: #212121;
+}
+
 .navigation-link,
 .contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
   text-decoration: none;
 }
 
@@ -150,12 +153,14 @@ address {
 }
 
 .index-hero {
+  max-width: 1600px;
   padding: 200px 0;
+  background-color: #c4c4c4;
   background-image: linear-gradient(
-    rgba(196, 196, 196, 1),
-    rgba(196, 196, 196, 1)
-  );
-  background-image: url(../img/index-hero-bg.jpg);
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/index-hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
